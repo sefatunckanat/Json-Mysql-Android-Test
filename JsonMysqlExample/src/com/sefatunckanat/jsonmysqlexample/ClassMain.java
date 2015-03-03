@@ -16,6 +16,10 @@ import android.widget.TextView;
 
 public class ClassMain extends Activity {
 
+	/**
+	 * 		SEFA TUNÇKANAT
+	 * 		03.03.2015 18:23
+	 */
 	static ListView listUser;
 	static ClassMain T;
 	@Override
