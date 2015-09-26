@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_name"
+        android:padding="10sp"/>
+    <EditText 
+        android:id="@+id/updateName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_phone"
+        android:padding="10sp"/>
+    <EditText 
+        android:id="@+id/updatePhone"
+        android:inputType="phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_mail"
+        android:padding="10sp"/>
+    <EditText 
+        android:id="@+id/updateMail"
+        android:inputType="textEmailAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <Button 
+	        android:id="@+id/buttonUpdate"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5sp"
+	        android:layout_weight="1"
+	        android:text="@string/update"/>
+          <Button 
+	        android:id="@+id/buttonDelete"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5sp"
+	        android:layout_weight="1"
+	        android:text="@string/delete"/>
+    </LinearLayout>
+   
+
+</LinearLayout>

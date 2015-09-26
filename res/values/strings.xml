@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Json Mysql Denemesi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_new">Yeni Kişi</string>
+    <string name="action_restart">Yenile</string>
+    
+   	<string name="new_name">Adı Soyadı</string>
+   	<string name="new_phone">Telefon Numarası</string>
+   	<string name="new_mail">Mail Adresi</string>
+   	<string name="Kaydet">Kişiyi Kaydet</string>
+	<string name="delete">Kişiyi Sil</string>
+	<string name="update">Kişiyi Güncelle</string>
+</resources>
